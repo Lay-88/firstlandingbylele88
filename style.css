@@ -1,0 +1,107 @@
+/* Write some CSS below */
+body {
+	font-family : Overpass;
+	font-size : 18px;
+	background-color: rgb(230,230,230);
+	color : rgb(30,30,30)
+}
+h1, h2, h3, h4 {
+	font-family : Comfortaa
+}
+
+h2 {
+	color: #C06868;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+h4 {
+	font-size: 14px;
+	color: black;
+}
+
+p{
+	font-family: Comfortaa;
+	margin-bottom: 40px;
+}
+
+a {
+	text-decoration : none;
+}
+
+ol{
+	font-family: Comfortaa;
+	font-size: 16px;
+	margin-bottom: 32px;
+}
+
+.banner {
+	background-image: url(images/banner-plane.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	padding: 100px 0px;
+}
+
+.btn-yellow {
+	background-color: #FFC7A8;
+	padding: 10px 45px;
+	color: white;
+	font-size: 16px;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+
+.btn-yellow:hover{
+	opacity: 0.8;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+}
+
+.card-white img {
+	width: 200px;
+	height : 200px;
+	object-fit: cover;
+	border-radius: 4px;
+
+}
+
+.card-white {
+	background-color: white;
+	text-align:  center;
+	width: 220px;
+	padding: 24px;
+	margin-bottom: 4px;
+	box-shadow: 0px 0px 8px rgb(0,0,0,0.1);
+	border-radius: 4px;
+	color:  #FFC7A8;
+}
+
+.footer {
+	background-color: #FFC7A8;
+	text-align:  center;
+	padding: 16px;
+	margin-top: 32px;
+	color:  white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+
+}
+
+.video{
+	text-align: center;
+}
+
+.link-video {
+	font-family:  Comfortaa;
+	font-size: 14px;
+	color: #FFC7A8;
+}
